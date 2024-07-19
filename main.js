@@ -9,4 +9,8 @@ fs.readFile(filename,"utf-8",(err,data)=>{
     })
 })
 })
+app.get("/",(req,res)=>{
+    res.send("hello");
+})
 app.listen(3000);
+//this is some change
